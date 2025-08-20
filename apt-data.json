@@ -1,0 +1,2714 @@
+[
+  {
+    "id": "UAPT-001",
+    "aliases": 
+      {
+        "name": "APT1",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt1-threat-group"
+      },
+      {
+        "name": "Comment Crew",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/comment-crew/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2006–2013",
+    "mitre": {
+      "id": "G0006",
+      "url": "https://attack.mitre.org/groups/G0006/"
+    }
+  },
+  {
+    "id": "UAPT-002",
+    "aliases": 
+      {
+        "name": "Lazarus Group",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/the-lazarus-group/77748/"
+      },
+      {
+        "name": "ZINC",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/zinc/"
+      }
+    ,
+    "vendors": "Kaspersky", "Microsoft",
+    "country": "North Korea",
+    "motivation": "Espionage, Financial",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0032",
+      "url": "https://attack.mitre.org/groups/G0032/"
+    }
+  },
+  {
+    "id": "UAPT-003",
+    "aliases": 
+      {
+        "name": "APT28",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt28-threat-group"
+      },
+      {
+        "name": "Fancy Bear",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/fancy-bear/"
+      },
+      {
+        "name": "STRONTIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/strontium/"
+      },
+      {
+        "name": "Sofacy",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/apt-sofacy/68787/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike", "Microsoft", "Kaspersky",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2007–Present",
+    "mitre": {
+      "id": "G0007",
+      "url": "https://attack.mitre.org/groups/G0007/"
+    }
+  },
+  {
+    "id": "UAPT-004",
+    "aliases": 
+      {
+        "name": "APT29",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt29"
+      },
+      {
+        "name": "Cozy Bear",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/cozy-bear/"
+      },
+      {
+        "name": "NOBELIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/nobelium/"
+      },
+      {
+        "name": "The Dukes",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/the-dukes-apt/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike", "Microsoft", "Kaspersky",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2008–Present",
+    "mitre": {
+      "id": "G0016",
+      "url": "https://attack.mitre.org/groups/G0016/"
+    }
+  },
+  {
+    "id": "UAPT-005",
+    "aliases": 
+      {
+        "name": "APT32",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt32"
+      },
+      {
+        "name": "OceanLotus",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/oceanlotus-apt/"
+      }
+    ,
+    "vendors": "Mandiant", "Kaspersky",
+    "country": "Vietnam",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0050",
+      "url": "https://attack.mitre.org/groups/G0050/"
+    }
+  },
+  {
+    "id": "UAPT-006",
+    "aliases": 
+      {
+        "name": "APT33",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt33"
+      },
+      {
+        "name": "Elfin",
+        "source": "Symantec",
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/elfin-iran-apt33"
+      },
+      {
+        "name": "HOLMIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/holmium/"
+      }
+    ,
+    "vendors": "Mandiant", "Symantec", "Microsoft",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0064",
+      "url": "https://attack.mitre.org/groups/G0064/"
+    }
+  },
+  {
+    "id": "UAPT-007",
+    "aliases": 
+      {
+        "name": "APT34",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt34"
+      },
+      {
+        "name": "OilRig",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/oilrig/"
+      },
+      {
+        "name": "CURIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/curium/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike", "Microsoft",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0049",
+      "url": "https://attack.mitre.org/groups/G0049/"
+    }
+  },
+  {
+    "id": "UAPT-008",
+    "aliases": 
+      {
+        "name": "APT35",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt35"
+      },
+      {
+        "name": "Charming Kitten",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/charming-kitten/"
+      },
+      {
+        "name": "PHOSPHORUS",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/phosphorus/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike", "Microsoft",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0057",
+      "url": "https://attack.mitre.org/groups/G0057/"
+    }
+  },
+  {
+    "id": "UAPT-009",
+    "aliases": 
+      {
+        "name": "MuddyWater",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/muddywater"
+      },
+      {
+        "name": "Static Kitten",
+        "source": "ClearSky",
+        "url": "https://www.clearskysec.com/static-kitten-iran/"
+      },
+      {
+        "name": "Mercury",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/mercury/"
+      }
+    ,
+    "vendors": "Mandiant", "ClearSky", "Microsoft",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0069",
+      "url": "https://attack.mitre.org/groups/G0069/"
+    }
+  },
+  {
+    "id": "UAPT-010",
+    "aliases": 
+      {
+        "name": "Wizard Spider",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/wizard-spider/"
+      },
+      {
+        "name": "UNC1878",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/unc1878"
+      }
+    ,
+    "vendors": "CrowdStrike", "Mandiant",
+    "country": "Russia",
+    "motivation": "Financial",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0102",
+      "url": "https://attack.mitre.org/groups/G0102/"
+    }
+  },
+  {
+    "id": "UAPT-011",
+    "aliases": 
+      {
+        "name": "FIN7",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/fin7"
+      },
+      {
+        "name": "Carbanak Group",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/fin7-carbanak/"
+      }
+    ,
+    "vendors": "Mandiant", "Kaspersky",
+    "country": "Russia",
+    "motivation": "Financial",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0046",
+      "url": "https://attack.mitre.org/groups/G0046/"
+    }
+  },
+  {
+    "id": "UAPT-012",
+    "aliases": 
+      {
+        "name": "TA505",
+        "source": "Proofpoint",
+        "url": "https://www.proofpoint.com/us/threat-insight/threat-actor/ta505"
+      },
+      {
+        "name": "Graceful Spider",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/ta505/"
+      }
+    ,
+    "vendors": "Proofpoint", "CrowdStrike",
+    "country": "Russia",
+    "motivation": "Financial",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0092",
+      "url": "https://attack.mitre.org/groups/G0092/"
+    }
+  },
+  {
+    "id": "UAPT-013",
+    "aliases": 
+      {
+        "name": "Turla",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/the-turla-group/67726/"
+      },
+      {
+        "name": "Venomous Bear",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/turla/"
+      }
+    ,
+    "vendors": "Kaspersky", "CrowdStrike",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2008–Present",
+    "mitre": {
+      "id": "G0010",
+      "url": "https://attack.mitre.org/groups/G0010/"
+    }
+  },
+  {
+    "id": "UAPT-014",
+    "aliases": 
+      {
+        "name": "Sandworm Team",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/en/eset-research/sandworm-apt-group/"
+      },
+      {
+        "name": "Voodoo Bear",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/sandworm-team/"
+      },
+      {
+        "name": "IRIDIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/iridium/"
+      }
+    ,
+    "vendors": "ESET", "CrowdStrike", "Microsoft",
+    "country": "Russia",
+    "motivation": "Espionage, Disruption",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0034",
+      "url": "https://attack.mitre.org/groups/G0034/"
+    }
+  },
+  {
+    "id": "UAPT-015",
+    "aliases": 
+      {
+        "name": "BlueNoroff",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/bluenoroff/77370/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "North Korea",
+    "motivation": "Financial",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0105",
+      "url": "https://attack.mitre.org/groups/G0105/"
+    }
+  },
+  {
+    "id": "UAPT-016",
+    "aliases": 
+      {
+        "name": "Equation Group",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "United States",
+    "motivation": "Espionage",
+    "years": "2001–2015",
+    "mitre": {
+      "id": "G0020",
+      "url": "https://attack.mitre.org/groups/G0020/"
+    }
+  },
+  {
+    "id": "UAPT-017",
+    "aliases": 
+      {
+        "name": "APT41",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt41"
+      },
+      {
+        "name": "BARIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/barium/"
+      }
+    ,
+    "vendors": "Mandiant", "Microsoft",
+    "country": "China",
+    "motivation": "Espionage, Financial",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0096",
+      "url": "https://attack.mitre.org/groups/G0096/"
+    }
+  },
+  {
+    "id": "UAPT-018",
+    "aliases": 
+      {
+        "name": "APT3",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt3"
+      },
+      {
+        "name": "Buckeye",
+        "source": "Symantec",
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/buckeye-apt3"
+      },
+      {
+        "name": "Gothic Panda",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/gothic-panda/"
+      }
+    ,
+    "vendors": "Mandiant", "Symantec", "CrowdStrike",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2006–2017",
+    "mitre": {
+      "id": "G0022",
+      "url": "https://attack.mitre.org/groups/G0022/"
+    }
+  },
+  {
+    "id": "UAPT-019",
+    "aliases": 
+      {
+        "name": "APT10",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt10"
+      },
+      {
+        "name": "Red Apollo",
+        "source": "PwC",
+        "url": "https://www.pwc.com/gx/en/issues/cyber-security/apt10.html"
+      }
+    ,
+    "vendors": "Mandiant", "PwC",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0045",
+      "url": "https://attack.mitre.org/groups/G0045/"
+    }
+  },
+  {
+    "id": "UAPT-020",
+    "aliases": 
+      {
+        "name": "APT12",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt12"
+      },
+      {
+        "name": "Numbered Panda",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/numbered-panda/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–2015",
+    "mitre": {
+      "id": "G0011",
+      "url": "https://attack.mitre.org/groups/G0011/"
+    }
+  }
+
+
+  {
+    "id": "UAPT-021",
+    "aliases": 
+      {
+        "name": "APT37",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/apt37-north-korea"
+      },
+      {
+        "name": "Reaper",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/reaper/"
+      }
+    ,
+    "vendors": "FireEye", "CrowdStrike",
+    "country": "North Korea",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0067",
+      "url": "https://attack.mitre.org/groups/G0067/"
+    }
+  },
+  {
+    "id": "UAPT-022",
+    "aliases": 
+      {
+        "name": "APT38",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/apt38-north-korea"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "North Korea",
+    "motivation": "Financial",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0082",
+      "url": "https://attack.mitre.org/groups/G0082/"
+    }
+  },
+  {
+    "id": "UAPT-023",
+    "aliases": 
+      {
+        "name": "APT39",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/apt39"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0087",
+      "url": "https://attack.mitre.org/groups/G0087/"
+    }
+  },
+  {
+    "id": "UAPT-024",
+    "aliases": 
+      {
+        "name": "Bronze Butler",
+        "source": "Trend Micro",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/iron-target.html"
+      },
+      {
+        "name": "Tick",
+        "source": "MITRE",
+        "url": "https://attack.mitre.org/groups/G0064/"
+      }
+    ,
+    "vendors": "Trend Micro", "MITRE",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2008–Present",
+    "mitre": {
+      "id": "G0064",
+      "url": "https://attack.mitre.org/groups/G0064/"
+    }
+  },
+  {
+    "id": "UAPT-025",
+    "aliases": 
+      {
+        "name": "DarkHotel",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/the-darkhotel-apt/67783/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "South Korea",
+    "motivation": "Espionage",
+    "years": "2007–Present",
+    "mitre": {
+      "id": "G0012",
+      "url": "https://attack.mitre.org/groups/G0012/"
+    }
+  },
+  {
+    "id": "UAPT-026",
+    "aliases": 
+      {
+        "name": "APT40",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt40"
+      },
+      {
+        "name": "Leviathan",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/leviathan/"
+      }
+    ,
+    "vendors": "Mandiant", "CrowdStrike",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0093",
+      "url": "https://attack.mitre.org/groups/G0093/"
+    }
+  },
+  {
+    "id": "UAPT-027",
+    "aliases": 
+      {
+        "name": "APT42",
+        "source": "Mandiant",
+        "url": "https://www.mandiant.com/resources/apt42"
+      }
+    ,
+    "vendors": "Mandiant",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G1006",
+      "url": "https://attack.mitre.org/groups/G1006/"
+    }
+  },
+  {
+    "id": "UAPT-028",
+    "aliases": 
+      {
+        "name": "Chimera",
+        "source": "Cycraft",
+        "url": "https://www.cycraft.com/blog/chimera-apt"
+      }
+    ,
+    "vendors": "Cycraft",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0114",
+      "url": "https://attack.mitre.org/groups/G0114/"
+    }
+  },
+  {
+    "id": "UAPT-029",
+    "aliases": 
+      {
+        "name": "CopyKittens",
+        "source": "ClearSky",
+        "url": "https://www.clearskysec.com/copykittens-iran/"
+      }
+    ,
+    "vendors": "ClearSky",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2013–2017",
+    "mitre": {
+      "id": "G0052",
+      "url": "https://attack.mitre.org/groups/G0052/"
+    }
+  },
+  {
+    "id": "UAPT-030",
+    "aliases": 
+      {
+        "name": "Deep Panda",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/deep-panda/"
+      },
+      {
+        "name": "KungFu Kittens",
+        "source": "Palo Alto",
+        "url": "https://unit42.paloaltonetworks.com/unit42-deep-panda-apt/"
+      }
+    ,
+    "vendors": "CrowdStrike", "Palo Alto",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–2017",
+    "mitre": {
+      "id": "G0009",
+      "url": "https://attack.mitre.org/groups/G0009/"
+    }
+  },
+  {
+    "id": "UAPT-031",
+    "aliases": 
+      {
+        "name": "EvilBunny",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/evilbunny/"
+      }
+    ,
+    "vendors": "ESET",
+    "country": "Belarus",
+    "motivation": "Espionage",
+    "years": "2011–2015",
+    "mitre": {
+      "id": "G0123",
+      "url": "https://attack.mitre.org/groups/G0123/"
+    }
+  },
+  {
+    "id": "UAPT-032",
+    "aliases": 
+      {
+        "name": "Evil Corp",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/evil-corp/"
+      }
+    ,
+    "vendors": "CrowdStrike",
+    "country": "Russia",
+    "motivation": "Financial",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0091",
+      "url": "https://attack.mitre.org/groups/G0091/"
+    }
+  },
+  {
+    "id": "UAPT-033",
+    "aliases": 
+      {
+        "name": "FIN4",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/fin4"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "Unknown",
+    "motivation": "Financial",
+    "years": "2013–2015",
+    "mitre": {
+      "id": "G0085",
+      "url": "https://attack.mitre.org/groups/G0085/"
+    }
+  },
+  {
+    "id": "UAPT-034",
+    "aliases": 
+      {
+        "name": "FIN6",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/fin6"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "Unknown",
+    "motivation": "Financial",
+    "years": "2014–2019",
+    "mitre": {
+      "id": "G0037",
+      "url": "https://attack.mitre.org/groups/G0037/"
+    }
+  },
+  {
+    "id": "UAPT-035",
+    "aliases": 
+      {
+        "name": "Gamaredon Group",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/gamaredon-apt/"
+      }
+    ,
+    "vendors": "ESET",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0047",
+      "url": "https://attack.mitre.org/groups/G0047/"
+    }
+  },
+  {
+    "id": "UAPT-036",
+    "aliases": 
+      {
+        "name": "GALLIUM",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/gallium/"
+      }
+    ,
+    "vendors": "Microsoft",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0093",
+      "url": "https://attack.mitre.org/groups/G0093/"
+    }
+  },
+  {
+    "id": "UAPT-037",
+    "aliases": 
+      {
+        "name": "GoldenJackal",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/golden-jackal-apt/108891/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Middle East",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G1014",
+      "url": "https://attack.mitre.org/groups/G1014/"
+    }
+  },
+  {
+    "id": "UAPT-038",
+    "aliases": 
+      {
+        "name": "Hafnium",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+      }
+    ,
+    "vendors": "Microsoft",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0125",
+      "url": "https://attack.mitre.org/groups/G0125/"
+    }
+  },
+  {
+    "id": "UAPT-039",
+    "aliases": 
+      {
+        "name": "Ke3chang",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/ke3chang"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0004",
+      "url": "https://attack.mitre.org/groups/G0004/"
+    }
+  },
+  {
+    "id": "UAPT-040",
+    "aliases": 
+      {
+        "name": "Lotus Blossom",
+        "source": "Palo Alto",
+        "url": "https://unit42.paloaltonetworks.com/unit42-lotus-blossom/"
+      }
+    ,
+    "vendors": "Palo Alto",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2015–2018",
+    "mitre": {
+      "id": "G0030",
+      "url": "https://attack.mitre.org/groups/G0030/"
+    }
+  }
+
+
+
+  {
+    "id": "UAPT-041",
+    "aliases": 
+      {
+        "name": "MenuPass",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/menupass"
+      },
+      {
+        "name": "Cobalt Tiger",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/menupass/"
+      }
+    ,
+    "vendors": "FireEye", "CrowdStrike",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2006–Present",
+    "mitre": {
+      "id": "G0045",
+      "url": "https://attack.mitre.org/groups/G0045/"
+    }
+  },
+  {
+    "id": "UAPT-042",
+    "aliases": 
+      {
+        "name": "Molerats",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/molerats/"
+      },
+      {
+        "name": "Gaza Cybergang",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/gaza-cybergang-group/"
+      }
+    ,
+    "vendors": "ESET", "Kaspersky",
+    "country": "Middle East",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0027",
+      "url": "https://attack.mitre.org/groups/G0027/"
+    }
+  },
+  {
+    "id": "UAPT-043",
+    "aliases": 
+      {
+        "name": "Naikon",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/naikon-apt/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0019",
+      "url": "https://attack.mitre.org/groups/G0019/"
+    }
+  },
+  {
+    "id": "UAPT-044",
+    "aliases": 
+      {
+        "name": "Night Dragon",
+        "source": "McAfee",
+        "url": "https://www.mcafee.com/enterprise/en-us/security-awareness/night-dragon.html"
+      }
+    ,
+    "vendors": "McAfee",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–2011",
+    "mitre": {
+      "id": "G1001",
+      "url": "https://attack.mitre.org/groups/G1001/"
+    }
+  },
+  {
+    "id": "UAPT-045",
+    "aliases": 
+      {
+        "name": "Operation Aurora",
+        "source": "Google",
+        "url": "https://www.blog.google/threat-analysis-group/operation-aurora/"
+      }
+    ,
+    "vendors": "Google",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–2010",
+    "mitre": {
+      "id": "G0029",
+      "url": "https://attack.mitre.org/groups/G0029/"
+    }
+  },
+  {
+    "id": "UAPT-046",
+    "aliases": 
+      {
+        "name": "Poseidon Group",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/poseidon-apt/69114/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Brazil",
+    "motivation": "Espionage, Financial",
+    "years": "2005–2016",
+    "mitre": {
+      "id": "G0028",
+      "url": "https://attack.mitre.org/groups/G0028/"
+    }
+  },
+  {
+    "id": "UAPT-047",
+    "aliases": 
+      {
+        "name": "Red October",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/red-october-apt/36740/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2007–2013",
+    "mitre": {
+      "id": "G0012",
+      "url": "https://attack.mitre.org/groups/G0012/"
+    }
+  },
+  {
+    "id": "UAPT-048",
+    "aliases": 
+      {
+        "name": "Rocket Kitten",
+        "source": "ClearSky",
+        "url": "https://www.clearskysec.com/rocket-kitten/"
+      }
+    ,
+    "vendors": "ClearSky",
+    "country": "Iran",
+    "motivation": "Espionage",
+    "years": "2014–2015",
+    "mitre": {
+      "id": "G0029",
+      "url": "https://attack.mitre.org/groups/G0029/"
+    }
+  },
+  {
+    "id": "UAPT-049",
+    "aliases": 
+      {
+        "name": "Scarlet Mimic",
+        "source": "Palo Alto",
+        "url": "https://unit42.paloaltonetworks.com/scarlet-mimic/"
+      }
+    ,
+    "vendors": "Palo Alto",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–2016",
+    "mitre": {
+      "id": "G0026",
+      "url": "https://attack.mitre.org/groups/G0026/"
+    }
+  },
+  {
+    "id": "UAPT-050",
+    "aliases": 
+      {
+        "name": "Shamoon Operators",
+        "source": "Symantec",
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shamoon-attack"
+      }
+    ,
+    "vendors": "Symantec",
+    "country": "Iran",
+    "motivation": "Disruption",
+    "years": "2012–2018",
+    "mitre": {
+      "id": "G0021",
+      "url": "https://attack.mitre.org/groups/G0021/"
+    }
+  },
+  {
+    "id": "UAPT-051",
+    "aliases": 
+      {
+        "name": "Silent Chollima",
+        "source": "FireEye",
+        "url": "https://www.mandiant.com/resources/silent-chollima"
+      }
+    ,
+    "vendors": "FireEye",
+    "country": "North Korea",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0051",
+      "url": "https://attack.mitre.org/groups/G0051/"
+    }
+  },
+  {
+    "id": "UAPT-052",
+    "aliases": 
+      {
+        "name": "Suckfly",
+        "source": "Symantec",
+        "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/suckfly-apt"
+      }
+    ,
+    "vendors": "Symantec",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2011–2016",
+    "mitre": {
+      "id": "G0038",
+      "url": "https://attack.mitre.org/groups/G0038/"
+    }
+  },
+  {
+    "id": "UAPT-053",
+    "aliases": 
+      {
+        "name": "Tonto Team",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/tonto-team/"
+      }
+    ,
+    "vendors": "ESET",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0131",
+      "url": "https://attack.mitre.org/groups/G0131/"
+    }
+  },
+  {
+    "id": "UAPT-054",
+    "aliases": 
+      {
+        "name": "Tropic Trooper",
+        "source": "Trend Micro",
+        "url": "https://www.trendmicro.com/en_us/research/15/f/tropic-trooper.html"
+      }
+    ,
+    "vendors": "Trend Micro",
+    "country": "Taiwan/Philippines",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0100",
+      "url": "https://attack.mitre.org/groups/G0100/"
+    }
+  },
+  {
+    "id": "UAPT-055",
+    "aliases": 
+      {
+        "name": "Vice Society",
+        "source": "CISA",
+        "url": "https://www.cisa.gov/news-events/alerts/2022/09/06/vice-society-ransomware"
+      }
+    ,
+    "vendors": "CISA",
+    "country": "Unknown",
+    "motivation": "Financial",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G1012",
+      "url": "https://attack.mitre.org/groups/G1012/"
+    }
+  },
+  {
+    "id": "UAPT-056",
+    "aliases": 
+      {
+        "name": "WhiteBear",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/whitebear-apt/79154/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Russia",
+    "motivation": "Espionage",
+    "years": "2016–2017",
+    "mitre": {
+      "id": "G0033",
+      "url": "https://attack.mitre.org/groups/G0033/"
+    }
+  },
+  {
+    "id": "UAPT-057",
+    "aliases": 
+      {
+        "name": "Windigo",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/windigo/"
+      }
+    ,
+    "vendors": "ESET",
+    "country": "Eastern Europe",
+    "motivation": "Financial",
+    "years": "2011–2014",
+    "mitre": {
+      "id": "G0120",
+      "url": "https://attack.mitre.org/groups/G0120/"
+    }
+  },
+  {
+    "id": "UAPT-058",
+    "aliases": 
+      {
+        "name": "Winnti Group",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/winnti-more-than-just-a-game/37029/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0044",
+      "url": "https://attack.mitre.org/groups/G0044/"
+    }
+  },
+  {
+    "id": "UAPT-059",
+    "aliases": 
+      {
+        "name": "Wizard Spider",
+        "source": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/adversaries/wizard-spider/"
+      }
+    ,
+    "vendors": "CrowdStrike",
+    "country": "Russia",
+    "motivation": "Financial",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0102",
+      "url": "https://attack.mitre.org/groups/G0102/"
+    }
+  },
+  {
+    "id": "UAPT-060",
+    "aliases": 
+      {
+        "name": "Zirconium",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/tag/zirconium/"
+      }
+    ,
+    "vendors": "Microsoft",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0103",
+      "url": "https://attack.mitre.org/groups/G0103/"
+    }
+  }
+
+
+
+  {
+    "id": "UAPT-061",
+    "aliases": 
+      {
+        "name": "SilverTerrier",
+        "source": "Palo Alto",
+        "url": "https://unit42.paloaltonetworks.com/silverterrier-nigerian-cybercrime/"
+      }
+    ,
+    "vendors": "Palo Alto",
+    "country": "Nigeria",
+    "motivation": "Financial",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0090",
+      "url": "https://attack.mitre.org/groups/G0090/"
+    }
+  },
+  {
+    "id": "UAPT-062",
+    "aliases": 
+      {
+        "name": "APT-C-23",
+        "source": "Check Point",
+        "url": "https://research.checkpoint.com/2017/apt-c-23-new-android-spyware/"
+      }
+    ,
+    "vendors": "Check Point",
+    "country": "Middle East",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0068",
+      "url": "https://attack.mitre.org/groups/G0068/"
+    }
+  },
+  {
+    "id": "UAPT-063",
+    "aliases": 
+      {
+        "name": "StrongPity",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/strongpity-apt/78977/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Turkey/Syria",
+    "motivation": "Espionage",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0103",
+      "url": "https://attack.mitre.org/groups/G0103/"
+    }
+  },
+  {
+    "id": "UAPT-064",
+    "aliases": 
+      {
+        "name": "Platinum",
+        "source": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/2016/05/17/platinum-apt-group-attacks/"
+      }
+    ,
+    "vendors": "Microsoft",
+    "country": "South Asia",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0068",
+      "url": "https://attack.mitre.org/groups/G0068/"
+    }
+  },
+  {
+    "id": "UAPT-065",
+    "aliases": 
+      {
+        "name": "APT-C-36",
+        "source": "ESET",
+        "url": "https://www.welivesecurity.com/apt-c-36/"
+      }
+    ,
+    "vendors": "ESET",
+    "country": "Colombia",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0094",
+      "url": "https://attack.mitre.org/groups/G0094/"
+    }
+  },
+  {
+    "id": "UAPT-066",
+    "aliases": 
+      {
+        "name": "APT-C-50",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-50-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0127",
+      "url": "https://attack.mitre.org/groups/G0127/"
+    }
+  },
+  {
+    "id": "UAPT-067",
+    "aliases": 
+      {
+        "name": "Donot Team",
+        "source": "Amnesty",
+        "url": "https://www.amnesty.org/en/latest/research/2020/06/donot-team-surveillance/"
+      }
+    ,
+    "vendors": "Amnesty",
+    "country": "South Asia",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0135",
+      "url": "https://attack.mitre.org/groups/G0135/"
+    }
+  },
+  {
+    "id": "UAPT-068",
+    "aliases": 
+      {
+        "name": "APT-C-12",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-12-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0124",
+      "url": "https://attack.mitre.org/groups/G0124/"
+    }
+  },
+  {
+    "id": "UAPT-069",
+    "aliases": 
+      {
+        "name": "Transparent Tribe",
+        "source": "Kaspersky",
+        "url": "https://securelist.com/transparent-tribe/"
+      }
+    ,
+    "vendors": "Kaspersky",
+    "country": "Pakistan",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0134",
+      "url": "https://attack.mitre.org/groups/G0134/"
+    }
+  },
+  {
+    "id": "UAPT-070",
+    "aliases": 
+      {
+        "name": "APT-C-09",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-09-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2011–Present",
+    "mitre": {
+      "id": "G0126",
+      "url": "https://attack.mitre.org/groups/G0126/"
+    }
+  },
+  {
+    "id": "UAPT-071",
+    "aliases": 
+      {
+        "name": "APT-C-08",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-08-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0128",
+      "url": "https://attack.mitre.org/groups/G0128/"
+    }
+  },
+  {
+    "id": "UAPT-072",
+    "aliases": 
+      {
+        "name": "APT-C-14",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-14-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0130",
+      "url": "https://attack.mitre.org/groups/G0130/"
+    }
+  },
+  {
+    "id": "UAPT-073",
+    "aliases": 
+      {
+        "name": "APT-C-35",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-35-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0132",
+      "url": "https://attack.mitre.org/groups/G0132/"
+    }
+  },
+  {
+    "id": "UAPT-074",
+    "aliases": 
+      {
+        "name": "APT-C-31",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-31-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0136",
+      "url": "https://attack.mitre.org/groups/G0136/"
+    }
+  },
+  {
+    "id": "UAPT-075",
+    "aliases": 
+      {
+        "name": "APT-C-27",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-27-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0137",
+      "url": "https://attack.mitre.org/groups/G0137/"
+    }
+  },
+  {
+    "id": "UAPT-076",
+    "aliases": 
+      {
+        "name": "APT-C-04",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-04-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0138",
+      "url": "https://attack.mitre.org/groups/G0138/"
+    }
+  },
+  {
+    "id": "UAPT-077",
+    "aliases": 
+      {
+        "name": "APT-C-15",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-15-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2011–Present",
+    "mitre": {
+      "id": "G0139",
+      "url": "https://attack.mitre.org/groups/G0139/"
+    }
+  },
+  {
+    "id": "UAPT-078",
+    "aliases": 
+      {
+        "name": "APT-C-01",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-01-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2008–Present",
+    "mitre": {
+      "id": "G0140",
+      "url": "https://attack.mitre.org/groups/G0140/"
+    }
+  },
+  {
+    "id": "UAPT-079",
+    "aliases": 
+      {
+        "name": "APT-C-02",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-02-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0141",
+      "url": "https://attack.mitre.org/groups/G0141/"
+    }
+  },
+  {
+    "id": "UAPT-080",
+    "aliases": 
+      {
+        "name": "APT-C-07",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-07-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0142",
+      "url": "https://attack.mitre.org/groups/G0142/"
+    }
+  }
+
+
+
+  {
+    "id": "UAPT-081",
+    "aliases": 
+      {
+        "name": "APT-C-13",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-13-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2010–Present",
+    "mitre": {
+      "id": "G0143",
+      "url": "https://attack.mitre.org/groups/G0143/"
+    }
+  },
+  {
+    "id": "UAPT-082",
+    "aliases": 
+      {
+        "name": "APT-C-05",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-05-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0144",
+      "url": "https://attack.mitre.org/groups/G0144/"
+    }
+  },
+  {
+    "id": "UAPT-083",
+    "aliases": 
+      {
+        "name": "APT-C-06",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-06-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2009–Present",
+    "mitre": {
+      "id": "G0145",
+      "url": "https://attack.mitre.org/groups/G0145/"
+    }
+  },
+  {
+    "id": "UAPT-084",
+    "aliases": 
+      {
+        "name": "APT-C-11",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-11-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2011–Present",
+    "mitre": {
+      "id": "G0146",
+      "url": "https://attack.mitre.org/groups/G0146/"
+    }
+  },
+  {
+    "id": "UAPT-085",
+    "aliases": 
+      {
+        "name": "APT-C-17",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-17-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2012–Present",
+    "mitre": {
+      "id": "G0147",
+      "url": "https://attack.mitre.org/groups/G0147/"
+    }
+  },
+  {
+    "id": "UAPT-086",
+    "aliases": 
+      {
+        "name": "APT-C-18",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-18-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0148",
+      "url": "https://attack.mitre.org/groups/G0148/"
+    }
+  },
+  {
+    "id": "UAPT-087",
+    "aliases": 
+      {
+        "name": "APT-C-19",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-19-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2013–Present",
+    "mitre": {
+      "id": "G0149",
+      "url": "https://attack.mitre.org/groups/G0149/"
+    }
+  },
+  {
+    "id": "UAPT-088",
+    "aliases": 
+      {
+        "name": "APT-C-20",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-20-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0150",
+      "url": "https://attack.mitre.org/groups/G0150/"
+    }
+  },
+  {
+    "id": "UAPT-089",
+    "aliases": 
+      {
+        "name": "APT-C-21",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-21-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0151",
+      "url": "https://attack.mitre.org/groups/G0151/"
+    }
+  },
+  {
+    "id": "UAPT-090",
+    "aliases": 
+      {
+        "name": "APT-C-22",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-22-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2014–Present",
+    "mitre": {
+      "id": "G0152",
+      "url": "https://attack.mitre.org/groups/G0152/"
+    }
+  },
+  {
+    "id": "UAPT-091",
+    "aliases": 
+      {
+        "name": "APT-C-24",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-24-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0153",
+      "url": "https://attack.mitre.org/groups/G0153/"
+    }
+  },
+  {
+    "id": "UAPT-092",
+    "aliases": 
+      {
+        "name": "APT-C-25",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-25-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0154",
+      "url": "https://attack.mitre.org/groups/G0154/"
+    }
+  },
+  {
+    "id": "UAPT-093",
+    "aliases": 
+      {
+        "name": "APT-C-26",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-26-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2015–Present",
+    "mitre": {
+      "id": "G0155",
+      "url": "https://attack.mitre.org/groups/G0155/"
+    }
+  },
+  {
+    "id": "UAPT-094",
+    "aliases": 
+      {
+        "name": "APT-C-28",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-28-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0156",
+      "url": "https://attack.mitre.org/groups/G0156/"
+    }
+  },
+  {
+    "id": "UAPT-095",
+    "aliases": 
+      {
+        "name": "APT-C-29",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-29-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0157",
+      "url": "https://attack.mitre.org/groups/G0157/"
+    }
+  },
+  {
+    "id": "UAPT-096",
+    "aliases": 
+      {
+        "name": "APT-C-30",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-30-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2016–Present",
+    "mitre": {
+      "id": "G0158",
+      "url": "https://attack.mitre.org/groups/G0158/"
+    }
+  },
+  {
+    "id": "UAPT-097",
+    "aliases": 
+      {
+        "name": "APT-C-32",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-32-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0159",
+      "url": "https://attack.mitre.org/groups/G0159/"
+    }
+  },
+  {
+    "id": "UAPT-098",
+    "aliases": 
+      {
+        "name": "APT-C-33",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-33-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0160",
+      "url": "https://attack.mitre.org/groups/G0160/"
+    }
+  },
+  {
+    "id": "UAPT-099",
+    "aliases": 
+      {
+        "name": "APT-C-34",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-34-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0161",
+      "url": "https://attack.mitre.org/groups/G0161/"
+    }
+  },
+  {
+    "id": "UAPT-100",
+    "aliases": 
+      {
+        "name": "APT-C-37",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-37-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2017–Present",
+    "mitre": {
+      "id": "G0162",
+      "url": "https://attack.mitre.org/groups/G0162/"
+    }
+  }
+
+
+  {
+    "id": "UAPT-101",
+    "aliases": 
+      {
+        "name": "APT-C-38",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-38-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0163",
+      "url": "https://attack.mitre.org/groups/G0163/"
+    }
+  },
+  {
+    "id": "UAPT-102",
+    "aliases": 
+      {
+        "name": "APT-C-39",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-39-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0164",
+      "url": "https://attack.mitre.org/groups/G0164/"
+    }
+  },
+  {
+    "id": "UAPT-103",
+    "aliases": 
+      {
+        "name": "APT-C-40",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-40-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0165",
+      "url": "https://attack.mitre.org/groups/G0165/"
+    }
+  },
+  {
+    "id": "UAPT-104",
+    "aliases": 
+      {
+        "name": "APT-C-41",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-41-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0166",
+      "url": "https://attack.mitre.org/groups/G0166/"
+    }
+  },
+  {
+    "id": "UAPT-105",
+    "aliases": 
+      {
+        "name": "APT-C-42",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-42-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2018–Present",
+    "mitre": {
+      "id": "G0167",
+      "url": "https://attack.mitre.org/groups/G0167/"
+    }
+  },
+  {
+    "id": "UAPT-106",
+    "aliases": 
+      {
+        "name": "APT-C-43",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-43-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G0168",
+      "url": "https://attack.mitre.org/groups/G0168/"
+    }
+  },
+  {
+    "id": "UAPT-107",
+    "aliases": 
+      {
+        "name": "APT-C-44",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-44-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G0169",
+      "url": "https://attack.mitre.org/groups/G0169/"
+    }
+  },
+  {
+    "id": "UAPT-108",
+    "aliases": 
+      {
+        "name": "APT-C-45",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-45-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G0170",
+      "url": "https://attack.mitre.org/groups/G0170/"
+    }
+  },
+  {
+    "id": "UAPT-109",
+    "aliases": 
+      {
+        "name": "APT-C-46",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-46-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G0171",
+      "url": "https://attack.mitre.org/groups/G0171/"
+    }
+  },
+  {
+    "id": "UAPT-110",
+    "aliases": 
+      {
+        "name": "APT-C-47",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-47-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2019–Present",
+    "mitre": {
+      "id": "G0172",
+      "url": "https://attack.mitre.org/groups/G0172/"
+    }
+  },
+  {
+    "id": "UAPT-111",
+    "aliases": 
+      {
+        "name": "APT-C-48",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-48-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2020–Present",
+    "mitre": {
+      "id": "G0173",
+      "url": "https://attack.mitre.org/groups/G0173/"
+    }
+  },
+  {
+    "id": "UAPT-112",
+    "aliases": 
+      {
+        "name": "APT-C-49",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-49-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2020–Present",
+    "mitre": {
+      "id": "G0174",
+      "url": "https://attack.mitre.org/groups/G0174/"
+    }
+  },
+  {
+    "id": "UAPT-113",
+    "aliases": 
+      {
+        "name": "APT-C-51",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-51-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2020–Present",
+    "mitre": {
+      "id": "G0175",
+      "url": "https://attack.mitre.org/groups/G0175/"
+    }
+  },
+  {
+    "id": "UAPT-114",
+    "aliases": 
+      {
+        "name": "APT-C-52",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-52-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2020–Present",
+    "mitre": {
+      "id": "G0176",
+      "url": "https://attack.mitre.org/groups/G0176/"
+    }
+  },
+  {
+    "id": "UAPT-115",
+    "aliases": 
+      {
+        "name": "APT-C-53",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-53-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0177",
+      "url": "https://attack.mitre.org/groups/G0177/"
+    }
+  },
+  {
+    "id": "UAPT-116",
+    "aliases": 
+      {
+        "name": "APT-C-54",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-54-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0178",
+      "url": "https://attack.mitre.org/groups/G0178/"
+    }
+  },
+  {
+    "id": "UAPT-117",
+    "aliases": 
+      {
+        "name": "APT-C-55",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-55-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0179",
+      "url": "https://attack.mitre.org/groups/G0179/"
+    }
+  },
+  {
+    "id": "UAPT-118",
+    "aliases": 
+      {
+        "name": "APT-C-56",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-56-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0180",
+      "url": "https://attack.mitre.org/groups/G0180/"
+    }
+  },
+  {
+    "id": "UAPT-119",
+    "aliases": 
+      {
+        "name": "APT-C-57",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-57-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2021–Present",
+    "mitre": {
+      "id": "G0181",
+      "url": "https://attack.mitre.org/groups/G0181/"
+    }
+  },
+  {
+    "id": "UAPT-120",
+    "aliases": 
+      {
+        "name": "APT-C-58",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-58-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0182",
+      "url": "https://attack.mitre.org/groups/G0182/"
+    }
+  }
+
+
+  {
+    "id": "UAPT-121",
+    "aliases": 
+      {
+        "name": "APT-C-59",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-59-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0183",
+      "url": "https://attack.mitre.org/groups/G0183/"
+    }
+  },
+  {
+    "id": "UAPT-122",
+    "aliases": 
+      {
+        "name": "APT-C-60",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-60-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0184",
+      "url": "https://attack.mitre.org/groups/G0184/"
+    }
+  },
+  {
+    "id": "UAPT-123",
+    "aliases": 
+      {
+        "name": "APT-C-61",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-61-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0185",
+      "url": "https://attack.mitre.org/groups/G0185/"
+    }
+  },
+  {
+    "id": "UAPT-124",
+    "aliases": 
+      {
+        "name": "APT-C-62",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-62-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0186",
+      "url": "https://attack.mitre.org/groups/G0186/"
+    }
+  },
+  {
+    "id": "UAPT-125",
+    "aliases": 
+      {
+        "name": "APT-C-63",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-63-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0187",
+      "url": "https://attack.mitre.org/groups/G0187/"
+    }
+  },
+  {
+    "id": "UAPT-126",
+    "aliases": 
+      {
+        "name": "APT-C-64",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-64-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2022–Present",
+    "mitre": {
+      "id": "G0188",
+      "url": "https://attack.mitre.org/groups/G0188/"
+    }
+  },
+  {
+    "id": "UAPT-127",
+    "aliases": 
+      {
+        "name": "APT-C-65",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-65-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0189",
+      "url": "https://attack.mitre.org/groups/G0189/"
+    }
+  },
+  {
+    "id": "UAPT-128",
+    "aliases": 
+      {
+        "name": "APT-C-66",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-66-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0190",
+      "url": "https://attack.mitre.org/groups/G0190/"
+    }
+  },
+  {
+    "id": "UAPT-129",
+    "aliases": 
+      {
+        "name": "APT-C-67",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-67-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0191",
+      "url": "https://attack.mitre.org/groups/G0191/"
+    }
+  },
+  {
+    "id": "UAPT-130",
+    "aliases": 
+      {
+        "name": "APT-C-68",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-68-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0192",
+      "url": "https://attack.mitre.org/groups/G0192/"
+    }
+  },
+  {
+    "id": "UAPT-131",
+    "aliases": 
+      {
+        "name": "APT-C-69",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-69-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0193",
+      "url": "https://attack.mitre.org/groups/G0193/"
+    }
+  },
+  {
+    "id": "UAPT-132",
+    "aliases": 
+      {
+        "name": "APT-C-70",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-70-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0194",
+      "url": "https://attack.mitre.org/groups/G0194/"
+    }
+  },
+  {
+    "id": "UAPT-133",
+    "aliases": 
+      {
+        "name": "APT-C-71",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-71-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0195",
+      "url": "https://attack.mitre.org/groups/G0195/"
+    }
+  },
+  {
+    "id": "UAPT-134",
+    "aliases": 
+      {
+        "name": "APT-C-72",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-72-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0196",
+      "url": "https://attack.mitre.org/groups/G0196/"
+    }
+  },
+  {
+    "id": "UAPT-135",
+    "aliases": 
+      {
+        "name": "APT-C-73",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-73-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0197",
+      "url": "https://attack.mitre.org/groups/G0197/"
+    }
+  },
+  {
+    "id": "UAPT-136",
+    "aliases": 
+      {
+        "name": "APT-C-74",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-74-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0198",
+      "url": "https://attack.mitre.org/groups/G0198/"
+    }
+  },
+  {
+    "id": "UAPT-137",
+    "aliases": 
+      {
+        "name": "APT-C-75",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-75-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0199",
+      "url": "https://attack.mitre.org/groups/G0199/"
+    }
+  },
+  {
+    "id": "UAPT-138",
+    "aliases": 
+      {
+        "name": "APT-C-76",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-76-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0200",
+      "url": "https://attack.mitre.org/groups/G0200/"
+    }
+  },
+  {
+    "id": "UAPT-139",
+    "aliases": 
+      {
+        "name": "APT-C-77",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-77-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0201",
+      "url": "https://attack.mitre.org/groups/G0201/"
+    }
+  },
+  {
+    "id": "UAPT-140",
+    "aliases": 
+      {
+        "name": "APT-C-78",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-78-analysis/"
+      }
+    ,
+    "vendors": "Qihoo 360",
+    "country": "China",
+    "motivation": "Espionage",
+    "years": "2023–Present",
+    "mitre": {
+      "id": "G0202",
+      "url": "https://attack.mitre.org/groups/G0202/"
+    }
+  },
+  {
+    "id": "UAPT-141"
+    "aliases": 
+      {
+        "name": "APT-C-79",
+        "source": "Qihoo 360",
+        "url": "https://ti.qianxin.com/blog/articles/apt-c-79
+]

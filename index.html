@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>APT Lookup Table – UAPT Unified Taxonomy</title>
+
+  <!-- DataTables CSS & JS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table.dataTable thead th {
+      background-color: #f0f0f0;
+    }
+    a { color: #0066cc; }
+    .muted { color: #666; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <h1>APT Lookup Table – UAPT Unified Taxonomy</h1>
+  <p>Search, filter, and explore APT groups from MITRE ATT&CK and vendor sources.</p>
+
+  <table id="aptTable" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>UAPT ID</th>
+        <th>Aliases</th>
+        <th>Vendors</th>
+        <th>Country</th>
+        <th>Motivation</th>
+        <th>Years Active</th>
+        <th>MITRE ID</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // Robust fetch that tries apt-data.JSON first, then apt-data.json as a fallback.
+    async function loadUAPT() {
+      const tried = [];
+      const candidates = ['apt-data.JSON', 'apt-data.json'];
+      for (const url of candidates) {
+        try {
+          tried.push(url);
+          const res = await fetch(url, {cache: 'no-store'});
+          if (!res.ok) continue;
+          const json = await res.json();
+          return json;
+        } catch (e) { /* try next candidate */ }
+      }
+      throw new Error('Failed to load data from: ' + tried.join(', '));
+    }
+
+    function normalizeData(raw) {
+      // Accept either an array of entries or { groups: [...] }
+      let arr = Array.isArray(raw) ? raw : (Array.isArray(raw?.groups) ? raw.groups : []);
+      if (!Array.isArray(arr)) arr = [];
+      return arr;
+    }
+
+    function aliasHTML(aliases) {
+      if (!Array.isArray(aliases) || aliases.length === 0) return '<span class="muted">—</span>';
+      return aliases.map(a => {
+        const name = (a && a.name) ? a.name : 'Alias';
+        const url = a && a.url;
+        return url ? `<a href="${url}" target="_blank" rel="noopener">${name}</a>` : `<span>${name}</span>`;
+      }).join(', ');
+    }
+
+    function vendorsText(vendors) {
+      if (!Array.isArray(vendors) || vendors.length === 0) return '—';
+      return vendors.join(', ');
+    }
+
+    function mitreHTML(mitre) {
+      if (!mitre || !mitre.id) return '<span class="muted">—</span>';
+      if (mitre.url) return `<a href="${mitre.url}" target="_blank" rel="noopener">${mitre.id}</a>`;
+      return `<span>${mitre.id}</span>`;
+    }
+
+    $(async function () {
+      try {
+        const raw = await loadUAPT();
+        const data = normalizeData(raw);
+
+        const table = $('#aptTable').DataTable({
+          pageLength: 25,
+          order: [[0, 'asc']],
+          deferRender: true
+        });
+
+        const rows = data.map(entry => {
+          const id = entry?.id ?? '—';
+          const aliases = aliasHTML(entry?.aliases);
+          const vendors = vendorsText(entry?.vendors);
+          const country = entry?.country ?? '—';
+          const motivation = entry?.motivation ?? '—';
+          const years = entry?.years ?? '—';
+          const mitre = mitreHTML(entry?.mitre);
+
+          return [id, aliases, vendors, country, motivation, years, mitre];
+        });
+
+        table.rows.add(rows).draw(false);
+      } catch (err) {
+        console.error(err);
+        alert('Failed to load APT data. Open the console for details.');
+      }
+    });
+  </script>
+</body>
+</html>
+
+
